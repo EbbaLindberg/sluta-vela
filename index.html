@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Sluta vela</title>
+    <link href="./main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>HJÄLP DANNE-VEL ATT BESTÄMMA SIG </h1>
+    <img src="daniel.jpg">
+    <div class="inputSection">
+      <div class="inputs">
+        <input placeholder=...></input>
+      </div>
+      <button class="addOption">Lägg till</button>
+    </div>
+    <div class="resultSection"></div>
+    <button>Välj!</botton>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+          $(function() {
+            $('.resultSection').hide()
+
+            var add_option = function() {
+              $('.inputs').append('<input></input>')
+            }
+
+            $('.addOption').click(add_option)
+      })
+    </script>
+  </body>
+</html>
