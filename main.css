@@ -5,13 +5,73 @@ body {
   align-items: center;
   margin-top: 150px;
   background-color: #427E78;
+  color: #e0bc75;
+  font-family: "Impact",Charcoal,serif;
 }
 
 h1 {
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 2px;
+  margin-bottom: 0px;
+  color: #e0bc75;
+  font-family: "Impact",Charcoal,serif;
+}
+
+button {
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 5px;
   margin-bottom: 40px;
+  color: #e0bc75;
+  font-family: "Impact",Charcoal,serif;
+  background-color: #427E78;
+  border: 2px solid #e0bc75;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #e0bc75;
+  color: #427E78;
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+input {
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  color: #e0bc75;
+  font-family: "Impact",Charcoal,serif;
+  background-color: #427E78;
+  border-bottom: 5px solid #e0bc75;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  color: #e0bc75;
+  font-family: "Impact",Charcoal,serif;
+  background-color: #427E78;
+  border-bottom: 5px solid #e0bc75;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
 }
 
 .inputSection {
@@ -31,4 +91,27 @@ input {
 
 .addOption {
   margin-top: 10px;
+}
+
+img {
+  width:150px;
+  margin-bottom: 10px;
+  border: 4px solid #e0bc75;
+}
+
+.inputs {
+  color: #e0bc75;
+}
+
+::-webkit-input-placeholder {
+  color: #e0bc75;
+}
+
+
+.resultSection {
+  height: 200px;
+  display: flex:run-in;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px
 }
