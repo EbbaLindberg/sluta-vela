@@ -37,11 +37,25 @@ button:hover {
   color: #427E78;
   outline: none;
   border: none;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 button:focus {
   outline: none;
   border: none;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+  color: #e0bc75;
+  font-family: "Impact",Charcoal,serif;
+  background-color: #427E78;
+  border: 2px solid #e0bc75;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
 }
 
 input {
