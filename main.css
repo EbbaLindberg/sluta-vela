@@ -3,59 +3,103 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
-  background-color: #427E78;
-  color: #e0bc75;
+  background-color: #1e6661;
+  color: #ddfff7;
   font-family: "Impact",Charcoal,serif;
+  margin-top: 100px;
 }
 
-h1 {
-  font-weight: lighter;
-  font-size: 60px;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
-  color: #e0bc75;
-  font-family: "Impact",Charcoal,serif;
+h1> span {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #ddfff7;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-button {
+.otherStyle {
+  justify-content: center;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 26px;
+  letter-spacing: 3px;
+  color: #ddfff7;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin-top: 0;
+  margin-bottom: 50;
+}
+
+.addOption {
+  font-weight: lighter;
+  font-size: 10px;
   letter-spacing: 5px;
-  margin-bottom: 40px;
-  color: #e0bc75;
+  margin-bottom: 0px;
+  color: #ddfff7;
   font-family: "Impact",Charcoal,serif;
-  background-color: #427E78;
-  border: 2px solid #e0bc75;
+  background-color: #1e6661;
+  border: 2px solid #ddfff7;
   border-radius: 10px;
-  height: 40px;
-  width: 200px;
+  height: 30px;
+  width: 150px;
 }
 
-button:hover {
-  background-color: #e0bc75;
-  color: #427E78;
-  outline: none;
-  border: none;
+.addOption:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-button:focus {
+.addOption:focus {
+  outline: none;
+  border: none;
+  font-weight: lighter;
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+  color: #ddfff7;
+  font-family: "Impact",Charcoal,serif;
+  background-color: #1e6661;
+  border: 2px solid #ddfff7;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.submit {
+  font-weight: lighter;
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+  color: #1e6661;
+  font-family: "Impact",Charcoal,serif;
+  background-color: #ddfff7;
+  border: 2px solid #ddfff7;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.submit:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.submit:focus {
   outline: none;
   border: none;
   font-weight: lighter;
   font-size: 15px;
   letter-spacing: 5px;
-  margin-bottom: 40px;
-  color: #e0bc75;
+  margin-bottom: 0px;
+  color: #1e6661;
   font-family: "Impact",Charcoal,serif;
-  background-color: #427E78;
-  border: 2px solid #e0bc75;
+  background-color: #ddfff7;
+  border: 2px solid #ddfff7;
   border-radius: 10px;
   height: 40px;
-  width: 200px;
+  width: 180px;
 }
 
 input {
@@ -63,10 +107,10 @@ input {
   font-size: 25px;
   letter-spacing: 5px;
   margin-bottom: 20px;
-  color: #e0bc75;
+  color: #ddfff7;
   font-family: "Impact",Charcoal,serif;
-  background-color: #427E78;
-  border-bottom: 5px solid #e0bc75;
+  background-color: #1e6661;
+  border-bottom: 3px solid #ddfff7;
   border-top-style: none;
   border-right-style: none;
   border-left-style: none;
@@ -79,10 +123,10 @@ input:focus {
   font-size: 25px;
   letter-spacing: 5px;
   margin-bottom: 20px;
-  color: #e0bc75;
+  color: #ddfff7;
   font-family: "Impact",Charcoal,serif;
-  background-color: #427E78;
-  border-bottom: 5px solid #e0bc75;
+  background-color: #1e6661;
+  border-bottom: 3px solid #ddfff7;
   border-top-style: none;
   border-right-style: none;
   border-left-style: none;
@@ -90,7 +134,7 @@ input:focus {
 
 .inputSection {
   margin: 50px 0px 80px 0px;
-  width:400px;
+  width:280px;
 }
 
 .inputs {
@@ -108,24 +152,29 @@ input {
 }
 
 img {
-  width:150px;
-  margin-bottom: 10px;
-  border: 4px solid #e0bc75;
+  width:110px;
+  margin-bottom: 30px;
+  border: 1px solid #ddfff7;
 }
 
 .inputs {
-  color: #e0bc75;
+  color: #ddfff7;
 }
 
 ::-webkit-input-placeholder {
-  color: #e0bc75;
+  color: #ddfff7;
 }
-
 
 .resultSection {
   height: 200px;
   display: flex:run-in;
   justify-content: center;
   align-items: center;
-  font-size: 50px
+  font-size: 80px
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: red;
 }
